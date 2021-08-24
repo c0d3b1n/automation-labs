@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="test.js"></script>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Value 1</th>
+        <th>Value 2</th>
+        <th>Operator</th>
+        <th>Compute</th>
+        <th>Result</th>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" id="val1" placeholder="0"/>
+        </td>
+        <td>
+          <input type="text" id="val2" placeholder="0"/>
+        </td>
+        <td>
+          <input type="text" id="operator"/>
+        </td>
+        <td>
+          <button type="button" id="compute">Compute!</button>
+        </td>
+        <td>
+          <input type="text" id="result" disabled/>
+        </td>
+      </tr>
+    </table>
+    <span id="errorMessage"></span>
+  </body>
+</html>
